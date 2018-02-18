@@ -1,0 +1,87 @@
+.osa-fade-in {
+  visibility: hidden;
+  opacity: 0; }
+
+.osa-transform-top {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, -50);
+      -ms-transform: matrix(1, 0, 0, 1, 0, -50);
+          transform: matrix(1, 0, 0, 1, 0, -50); }
+
+.osa-transform-bottom {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 50);
+      -ms-transform: matrix(1, 0, 0, 1, 0, 50);
+          transform: matrix(1, 0, 0, 1, 0, 50); }
+
+.osa-transform-left {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, -50, 0);
+      -ms-transform: matrix(1, 0, 0, 1, -50, 0);
+          transform: matrix(1, 0, 0, 1, -50, 0); }
+
+.osa-transform-right {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, 50, 0);
+      -ms-transform: matrix(1, 0, 0, 1, 50, 0);
+          transform: matrix(1, 0, 0, 1, 50, 0); }
+
+.osa-bounce-top {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, -50);
+      -ms-transform: matrix(1, 0, 0, 1, 0, -50);
+          transform: matrix(1, 0, 0, 1, 0, -50); }
+
+.osa-bounce-bottom {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 50);
+      -ms-transform: matrix(1, 0, 0, 1, 0, 50);
+          transform: matrix(1, 0, 0, 1, 0, 50); }
+
+.osa-bounce-left {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, -50, 0);
+      -ms-transform: matrix(1, 0, 0, 1, -50, 0);
+          transform: matrix(1, 0, 0, 1, -50, 0); }
+
+.osa-bounce-right {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, 50, 0);
+      -ms-transform: matrix(1, 0, 0, 1, 50, 0);
+          transform: matrix(1, 0, 0, 1, 50, 0); }
+
+.osa-slowMo-top {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, -50);
+      -ms-transform: matrix(1, 0, 0, 1, 0, -50);
+          transform: matrix(1, 0, 0, 1, 0, -50); }
+
+.osa-slowMo-bottom {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 50);
+      -ms-transform: matrix(1, 0, 0, 1, 0, 50);
+          transform: matrix(1, 0, 0, 1, 0, 50); }
+
+.osa-slowMo-left {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, -50, 0);
+      -ms-transform: matrix(1, 0, 0, 1, -50, 0);
+          transform: matrix(1, 0, 0, 1, -50, 0); }
+
+.osa-slowMo-right {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, 50, 0);
+      -ms-transform: matrix(1, 0, 0, 1, 50, 0);
+          transform: matrix(1, 0, 0, 1, 50, 0); }
