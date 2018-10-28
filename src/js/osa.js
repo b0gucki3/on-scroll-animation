@@ -5,26 +5,24 @@ class Osa {
         this.gsFinal = gsFinal;
         this.gsInitial = gsInitial;
 
+        this.initialPosition();
+        this.animateSelectors();
+    }
+
+    initialPosition() {
+        TweenLite.to(this.cssSelector, 0, this.gsInitial);
+    }
+
+    animateSelectors() {
+        var _this = this;
         var controller = new ScrollMagic.Controller();
-
-        var osaObject = this; //reference to the current instance
-
-        //set up initial positioning
-        TweenLite.to(cssSelector, 0, gsInitial);
-
-        $(cssSelector).each(function () {
-            var domRef = this; //reference to a single dom element of the loop
-            var animated = false;
-            new ScrollMagic.Scene({triggerElement: domRef, duration: 100})
-                    .triggerHook(0.5)
+        $(this.cssSelector).each(function (index, element) {
+            new ScrollMagic.Scene({
+                triggerElement: element
+            })
+                    .setTween(element, 0.5, _this.gsFinal)
                     //.addIndicators()
-                    .addTo(controller)
-                    .on('progress', function (e) {
-                        if (e.state == 'DURING' && !animated) {
-                            animated = true;
-                            TweenLite.to(domRef, osaObject.speed, osaObject.gsFinal);
-                        }
-                    });
+                    .addTo(controller);
         });
     }
 }
